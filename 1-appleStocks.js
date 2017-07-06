@@ -9,6 +9,7 @@
 // I could have made from 1 purchase and 1 sale of 1 Apple stock yesterday.
 
 // solution works for negative numbers as well.
+// solution is O(n) time and O(1) space.
 
 const appleStocks = function(priceArr) {
   if(priceArr.length < 2) {
